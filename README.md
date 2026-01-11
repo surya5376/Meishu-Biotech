@@ -1,16 +1,95 @@
-# React + Vite
+# Meishu Biotech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Meishu Biotech](/images/logo.jpg)
 
-Currently, two official plugins are available:
+**Meishu Biotech** is a state-of-the-art pharmaceutical and biotechnology website designed to showcase innovation in healthcare. It features a premium, modern user interface with a "Monochrome & Emerald" aesthetic, ensuring a professional and scientifically credible presence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### Core Experience
+*   **Modern Aesthetics**: Built with a "Monochrome & Emerald" theme, strictly enforcing high-contrast Black/White backgrounds with Emerald accents for a premium feel.
+*   **Dark & Light Mode**: Fully adaptive theme system. Uses semantic classes (e.g., `.text-heading`, `.bg-page`) to ensure perfect visibility and contrast in any mode.
+*   **Responsive Design**: Flawless experience across all devices, from mobile phones to large desktop screens.
+*   **Smooth Animations**: Integrated `Framer Motion` for sophisticated reveal effects, scroll animations, and interactive elements.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Pages & Functionality
+*   **Home**: Impactful Hero section, "Why Choose Us" highlights, and interactive Vision references.
+*   **Our Products**: Comprehensive catalog separating "Patent Applied Innovations" (large, prominent cards) from standard market products. Includes external links for detailed product info (e.g., Osteahenz).
+*   **R&D**: Showcases the research pipeline and technology platforms (Nanotechnology, Smart Delivery) with timeline or card-based layouts.
+*   **News**: Updates section with unique, context-aware summaries of company achievements.
+*   **Contact**: Functional contact form and dual-office location details (India & Singapore).
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   **Framework**: [React](https://react.dev/) (v18+)
+*   **Build Tool**: [Vite](https://vitejs.dev/)
+*   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+*   **Animations**: [Framer Motion](https://www.framer.com/motion/)
+*   **Icons**: [Lucide React](https://lucide.dev/)
+*   **Routing**: [React Router DOM](https://reactrouter.com/)
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/   # Reusable UI components (Header, Footer, Button, Reveal)
+├── pages/        # Main route pages (Home, Products, About, etc.)
+├── assets/       # Static assets and icons
+└── index.css     # Global styles and Tailwind directives
+public/
+├── images/       # Product images and logos
+└── .htaccess     # Server configuration for Apache deployment
+```
+
+## ⚡ Getting Started
+
+### Prerequisites
+*   Node.js (v16 or higher)
+*   npm or yarn
+
+### Installation
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/surya5376/Meishu-Biotech.git
+    cd MeishuBiotech
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run development server**:
+    ```bash
+    npm run dev
+    ```
+    Open `http://localhost:5173` to view it in the browser.
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+1.  Push your code to GitHub.
+2.  Import project in Vercel.
+3.  **Important**: Ensure "Root Directory" is empty or set to `./`.
+4.  Deploy! (SPA routing is handled by `vercel.json`).
+
+### BigRock / cPanel
+1.  Run `npm run build`.
+2.  Zip the contents of the `dist` folder.
+3.  Upload to `public_html` on your server.
+4.  The included `.htaccess` file handles routing automatically.
+
+## 📞 Contact
+
+**India Office**
+#G Block, Alipur Road
+New Delhi
+
+**Singapore Office**
+Meishu Sg
+
+Email: [meishubiotech@gmail.com](mailto:meishubiotech@gmail.com)
+
+---
+© 2026 Meishu Biotech. All rights reserved.

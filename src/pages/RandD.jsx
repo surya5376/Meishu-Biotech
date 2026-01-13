@@ -21,7 +21,7 @@ export const RandD = () => {
                 <div className="grid md:grid-cols-3 gap-8">
                     {[
                         { title: "Targeted Platform Technologies", icon: Network, desc: "Utilizing nanotechnology to deliver drugs directly to diseased cells, minimizing systemic side effects and improving patient outcomes. Smart Delivery - Development of stimuli-responsive polymers that release medication only in response to specific physiological triggers like pH or temperature." },
-                        { title: "Pipeline of Innovation", icon: Atom, desc: "Our current efforts are concentrated on tackling pressing challenges in sustainable agriculture, personalized medicine, or chronic disease management. We maintain a robust and meticulously managed pipeline, transitioning promising basic research into viable, market-ready products." },
+                        { title: "Pipeline of Innovation", icon: Atom, desc: "Our current efforts are concentrated on tackling pressing challenges in personalized medicine, or chronic disease management. We maintain a robust and meticulously managed pipeline, transitioning promising basic research into viable, market-ready products." },
                         { title: "Data-Driven Excellence", icon: Dna, desc: "Leveraging the latest in bioinformatics and AI, our R&D processes are optimized for speed and accuracy. We integrate vast datasets to inform hypothesis generation, accelerate preclinical testing, and ensure the highest standards of scientific validation." }
                     ].map((item, idx) => (
                         <Reveal key={idx} delay={idx * 0.1}>

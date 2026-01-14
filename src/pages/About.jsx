@@ -9,8 +9,16 @@ export const About = () => {
                 <div className="container mx-auto px-4 text-center">
                     <Reveal width="100%">
                         <h1 className="text-4xl md:text-5xl font-bold font-display mb-6 text-heading">About Meishu Biotech</h1>
+                        <br></br>
                         <p className="text-xl max-w-2xl mx-auto text-body">
-                            We are a dynamic, cutting-edge enterprise dedicated to advancing human and environmental well-being through exceptional biotechnology.
+                            The name Meishu (盟主) is rooted in the Japanese concept of a 
+                            <br></br>
+                        "Leader of an Alliance". This title reflects our foundational ambition: to serve as a pioneer and a steadfast pillar of support within the global medical community.
+                        <br></br> 
+                        At Meishu Biotech, we don't just participate in the industry — we lead it.
+                        <br></br>
+                        </p>
+                        <p className="text-xl max-w-2xl mx-auto text-body">
                         </p>
                     </Reveal>
                 </div>

@@ -87,7 +87,7 @@ public/
 New Delhi
 
 **Singapore Office**
-Meishu Sg
+Meishu SG
 
 Email: [meishubiotech@gmail.com](mailto:meishubiotech@gmail.com)
 
